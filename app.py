@@ -29,6 +29,7 @@ def get_name(name: str):
 
 # 3. Expose the prediction functionality, make a prediction from the passed
 #    JSON data and return the predicted Bank Note with the confidence
+#    Located at: http://127.0.0.1:8000/docs
 @app.post('/predict')
 def predict_banknote(data:BankNote):
     data = data.dict()
