@@ -1,16 +1,15 @@
-# -*- coding: utf-8 -*-
-"""
-Created on 19 / 2 / 2025
 
-"""
+#Created on 19 / 2 / 2025
+
 
 # 1. Library imports
+import numpy as np
+import pandas as pd
 import uvicorn
 from fastapi import FastAPI
 from BankNotess import BankNote
-import numpy as np
 import pickle
-import pandas as pd
+
 # 2. Create the app object
 app = FastAPI()
 pickle_in = open("classifier.pkl","rb")
