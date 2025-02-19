@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 """
-Created on Tue Feb 19 21:40:41 2020
+Created on 19 / 2 / 2025
 
 """
 
@@ -51,4 +51,5 @@ def predict_banknote(data:BankNote):
 if __name__ == '__main__':
     uvicorn.run(app, host='127.0.0.1', port=8000)
     
-#uvicorn app:app --reload
+# cd BankNotes
+# uvicorn app:app --reload
